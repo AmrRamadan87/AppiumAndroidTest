@@ -24,9 +24,11 @@ This project contains automated tests for the **Simple Clinic** Android app usin
 - Android SDK
 - Android Emulator or Physical Device
 
+### Device/Emulator Requirements
+ - An Android emulator or physical device with API level 21 or higher.
+ - Ensure the device/emulator is connected and accessible via adb.
+
 ### How to Run the Tests
 1. Ensure Appium server is running.
 2. Update the `DesiredCapabilities` in the `SimpleClinicSteps.java` file with your device/emulator details.
-3. Run the following command to execute the tests:
-   ```bash
-   mvn test
+
